@@ -45,86 +45,42 @@ How can they be fixed…
 
 A rule (I personally believe) we should follow when porting SS13 content to SS14 is to add our own variations instead of blatantly copying them. Therefore...
 
-### Pre-Hatch 
-### Hatch
-Hatch is the first ability that the Shadowling owns once they spawn, along with access to the Hivemind Channel. Once the player engages hatching, they will be warned and once they decide they want to hatch, the process will begin. 
-A container egg entity will spawn in their coordinates and insert them inside, dropping their clothes in the process. Once a few minutes pass, the egg will break and the Shadowling will unlock new abilities and change their skin colour, becoming **valid** to everyone. It is to be noted that the egg can not be broken, and Shadowlings shouldn't be able to take damage in this process by external forces. 
-### Post Hatch 
-
-### Enthrall
-The most basic ability of the Shadowling. It is the ability that converts people to their side. 
-
-### Glare
-Single target stun ability that can work at any distance. The closer it is activated to the Shadowling, the more effective it will be. For example, if the target is on the end of the screen, then there's gonna be delay and a small amount of stun. If the target is next to the Shadowling, then the stun will take effect immediately and the target will also be muted.
-
-### Veil
-Similarly to EMP-related actions, Veil just turns off the lighting in the area around the Shadowling
-
-### Shadow walk 
-The Shadowling gains the ability to become invisible and move faster for some amount of time. They can't phase through walls, but their ability lasts longer.
-
-### Icy Veins
-AOE ability that outputs a cold temperature and stuns targets in the area around the Shadowling. Think of the Changeling's cryogenic sting.
-
-### Collective Mind
-Gives the Shadowling new abilities based on Thralls. Briefly stuns all Thralls and Lesser Shadowlings. 
-
-### Rapid Re-Hatch
-Ability to heal all damage in some amount of time
-
-### Destroy Engines 
-Delays the evacuation shuttle by 10 minutes 
-
-### Thrall Based Abilities
-
-Note; The brackets indicate the amount of Thralls required
-### Sonic Screech [3]
-Damages windows, stuns silicons and deafens people
-
-### Blindness Smoke[5]
-Emits a smoke that blinds non-shadowlings and heals thralls/shadowlings
-
-### Null Charge[7]
-Disables an APC until it is fixed
-
-### Black Recuperation[9]
-Either brings back a dead Thrall to life, or promotes a Thrall to Lesser Shadowling
-
-### Empowered Enthrall (SS14 Unique)[7]
-Gives the Shadowling the ability to Enthrall mindshielded individuals
-
-### Nox Imperii (SS14 Unique)[12]
-Forms an dark angelic crown around the Shadowling and makes it immune from all Lighting Damage. Lasts for all round.
-
-### Ascension [20]
-Ascends. Destroys all lights in the station, stuns everyone for some seconds and gains new abilities. 
-They become *nearly* unkillable and their basic attacks do the same damage as an esword. They can still be killed though... 
-
-### Ascension Abilities
-
-### Annihilate
-Insta-gib
-
-### Hypnosis
-Insta-thrall (anyone)
-
-### Plane-Shift
-Shadow Walk but you can phase through walls and it's a Toogle action
-
-### Lighting Storm
-Shocks everyone around them
-
-### Ascendant Broadcast
-Sends an announcement to all players
+| **Ability**            | **Description**                                                                                                                                              |
+|------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Pre-Hatch**           | Initial stage before the Shadowling can hatch.                                                                                                               |
+| **Hatch**               | The Shadowling hatches from an egg, gaining new abilities and a change in skin color. The process is protected from external damage.                          |
+| **Post Hatch**          |                                                                                                                                                              |
+| **Enthrall**            | Converts people to the Shadowling's side.                                                                                                                     |
+| **Glare**               | Single-target stun with varying effectiveness based on range. Closer targets are stunned more effectively.                                                   |
+| **Veil**                | Disables lighting around the Shadowling, similar to EMP effects.                                                                                             |
+| **Shadow Walk**         | Grants invisibility and increased speed for a limited time. Cannot phase through walls.                                                                      |
+| **Icy Veins**           | AOE cold ability that stuns targets within the area.                                                                                                         |
+| **Collective Mind**     | Grants new abilities based on the number of Thralls, briefly stunning all Thralls and Lesser Shadowlings.                                                     |
+| **Rapid Re-Hatch**      | Heals all damage over a short period.                                                                                                                         |
+| **Destroy Engines**     | Delays the evacuation shuttle by 10 minutes.                                                                                                                 |
+| **Thrall-Based Abilities** | Number inside Brackets -> Amount of Thralls Required                                                                                                      |
+| **Sonic Screech [3]**   | Damages windows, stuns silicons, and deafens people.                                                                                                         |
+| **Blindness Smoke [5]** | Emits smoke that blinds non-shadowlings and heals thralls/shadowlings.                                                                                        |
+| **Null Charge [7]**     | Disables an APC until repaired.                                                                                                                              |
+| **Black Recuperation [9]** | Brings a dead Thrall back to life or promotes a Thrall to Lesser Shadowling.                                                                                  |
+| **Empowered Enthrall [7]** | Allows Enthralling of mindshielded individuals.                                                                                                               |
+| **Nox Imperii [12]**    | Forms a dark angelic crown around the Shadowling, making them immune to all lightning damage for the round.                                                   |
+| **Ascension [20]**      | Ascends the Shadowling, destroying all lights in the station, stunning everyone for a short duration, and gaining new abilities. Becomes nearly unkillable.  |
+| **Ascension Abilities** |                                                                                                                                                              |
+| **Annihilate**          | Instantly kills the target (insta-gib).                                                                                                                       |
+| **Hypnosis**            | Instantly turns any target into a Thrall.                                                                                                                     |
+| **Plane-Shift**         | A toggle ability that allows the Shadowling to phase through walls, similar to Shadow Walk.                                                                  |
+| **Lighting Storm**      | Shocks all players around the Shadowling.                                                                                                                     |
+| **Ascendant Broadcast** | Sends a broadcast announcement to all players in the round.                                                                                                  |
 
 
 ## Mechanics: Passive Abilities
 
-### Hivemind
-Shadowlings can talk in their Hivemind with the :8 prefix
+### Shadowmind
+Shadowlings and Thralls can talk in their own radio frequency with the :8 prefix
 
 ### Light Resistance 
-Based on the amount of Thralls, they gain some form light resistance. This makes Security and Crew to not spam lights, and fight them head-on. If I Am Light is used, this passive gets disabled and the ability takes over.
+Based on the amount of Thralls, they gain some form of light resistance. This makes Security and Crew to not spam lights, and fight them head-on. If I Am Light is used, this passive gets disabled and the ability takes over.
 
 Scalings:
 0-3: 10% Light Resistance 
