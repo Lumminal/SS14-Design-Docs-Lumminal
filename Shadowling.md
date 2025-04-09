@@ -4,16 +4,15 @@ Shadowlings are alien xeno creatures that are sensitive to light. They have take
 
 ## What type of antagonist are they?
 
-Shadowlings are conversion antags.
+Shadowlings are conversion and progression based antags.
 
 ## What is unique about a Shadowling?
 
 Shadowlings have quite a lot of unique features.
 
-* Firstly, they **take damage based on lighting** and they are the weakest antag that you can play.
-
+* Firstly, they **take damage based on lighting** and they are the weakest round-start antag.
 * Secondly, unlike other conversion-based antagonists like Blood Cult and Revs, Shadowlings follow another paradigm. That paradigm being the Master-Follower one.
-* Thirdly, they unlock abilities based on their current phase. Before hatch they only own the hatching ability, post hatch they have other new abilities and after Ascension, they unlock upgraded abilities. They do not have a shop.
+* Thirdly, they unlock abilities based on their current phase, which means they are progression based (think Heretic). Before hatch they only own the hatching ability, post hatch they have other new abilities and after Ascension, they unlock upgraded abilities. They, however, do not have a shop.
 
 # Master-Follower
 
@@ -23,7 +22,6 @@ The master is the Shadowling, and the follower is the Thrall who the Shadowling 
 
 Thralls are to follow their master at all costs, overriding their current loyalty to NanoTrasen, Syndicate or any other corp.
 That means, even a Wizard or Nukie can become a Thrall, which (again) means they will help their master ascend instead of following their current objectives.
-
 
 ## A trip back to SS13 Shadowlings and how we can improve them
 
@@ -39,7 +37,8 @@ How can they be fixed…
 
 * Shadowlings should be able to enthrall mindshielded crew by any means. Either through their current enthrall ability or through a new one.
 * A proposed fix for their weaknesses is to let them scale light resistances based on Thralls. Since they can't wear any clothing and armor, this would help massively at early round.
-* Make them spawn along major antagonists
+* Make them spawn along major antagonists.
+* Make them unable to carry any weapons, so they rely more on Thralls and their abilities.
 * Make them less-murderbone before ascension. They should only get as many thralls, instead of killing.
 
 ## Mechanics: Basic Abilities
@@ -53,7 +52,7 @@ A container egg entity will spawn in their coordinates and insert them inside, d
 ### Post Hatch 
 
 ### Enthrall
-The most basic ability of the Sling. It is the ability that converts people to their side. 
+The most basic ability of the Shadowling. It is the ability that converts people to their side. 
 
 ### Glare
 Single target stun ability that can work at any distance. The closer it is activated to the Shadowling, the more effective it will be. For example, if the target is on the end of the screen, then there's gonna be delay and a small amount of stun. If the target is next to the Shadowling, then the stun will take effect immediately and the target will also be muted.
@@ -94,7 +93,7 @@ Either brings back a dead Thrall to life, or promotes a Thrall to Lesser Shadowl
 ### Empowered Enthrall (SS14 Unique)[7]
 Gives the Shadowling the ability to Enthrall mindshielded individuals
 
-### I Am Light (SS14 Unique)[12]
+### Nox Imperii (SS14 Unique)[12]
 Forms an dark angelic crown around the Shadowling and makes it immune from all Lighting Damage. Lasts for all round.
 
 ### Ascension [20]
@@ -134,28 +133,29 @@ Scalings:
 
 ## Ability Timings 
 
-Ability                 Use Time   Cooldown 
-Hatching:             Instant          0s
-Enthrall:               2s.                 0s
-Glare:                   Instant.       30s
-Veil:                      Instant.       10s
-Shadow Walk:      Instant.      45s
-Icy Veins:             Instant.       25s
-Collective Mind:  Instant.       5s.
-Rapid Re-Hatch:  5s.              60s
-Destroy Engines: Instant.       One-Time
-Sonic Screech:    Instant.       30s
-Blindness Smoke: Instant.     60s
-Null Charge:        10s.             60s
-Black Recuper.:   3s.               60s
-Emp. Enthrall:      2s.               30s
-I Am Light:           Instant.        One-Time
-Ascendance:       Instant.        One-Time
-Annihilate:           Instant.        15s
-Hypnosis:            Instant.        5s
-Plane-Shift:         Toggle.        Toggle
-Lighting Storm:   5s.                20s
-Asc. Broadcast:  Instant.        One-Time
+| Ability             | Use Time | Cooldown     |
+|---------------------|----------|--------------|
+| Hatching            | Instant  | One-Time     |
+| Enthrall            | 2s       | 0s           |
+| Glare               | Instant  | 30s          |
+| Veil                | Instant  | 10s          |
+| Shadow Walk         | Instant  | 45s          |
+| Icy Veins           | Instant  | 25s          |
+| Collective Mind     | Instant  | 5s           |
+| Rapid Re-Hatch      | 5s       | 60s          |
+| Destroy Engines     | Instant  | One-Time     |
+| Sonic Screech       | Instant  | 30s          |
+| Blindness Smoke     | Instant  | 60s          |
+| Null Charge         | 10s      | 60s          |
+| Black Recuper.      | 3s       | 60s          |
+| Emp. Enthrall       | 2s       | 30s          |
+| Nox Imperii         | Instant  | One-Time     |
+| Ascendance          | Instant  | One-Time     |
+| Annihilate          | Instant  | 15s          |
+| Hypnosis            | Instant  | 5s           |
+| Plane-Shift         | Toggle   | Toggle       |
+| Lightning Storm     | 5s       | 20s          |
+| Asc. Broadcast      | Instant  | One-Time     |
 
 ## Why should they be added to the game?
 
