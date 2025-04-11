@@ -77,7 +77,7 @@ A rule (I personally believe) we should follow when porting SS13 content to SS14
 ## Mechanics: Passive Abilities
 
 ### Shadowmind
-Shadowlings and Thralls can talk in their own radio frequency with the :8 prefix
+Shadowlings and Thralls can talk in their own language by opening the language menu, similar to Blood Cultists
 
 ### Light Resistance 
 Based on the amount of Thralls, they gain some form of light resistance. This makes Security and Crew to not spam lights, and fight them head-on. If I Am Light is used, this passive gets disabled and the ability takes over.
@@ -92,7 +92,7 @@ Scalings:
 | Ability             | Use Time | Cooldown     |
 |---------------------|----------|--------------|
 | Hatching            | Instant  | One-Time     |
-| Enthrall            | 2s       | 0s           |
+| Enthrall            | 1.5<s (needs testing)       | 0s           |
 | Glare               | Instant  | 30s          |
 | Veil                | Instant  | 10s          |
 | Shadow Walk         | Instant  | 45s          |
@@ -113,8 +113,14 @@ Scalings:
 | Lightning Storm     | 5s       | 20s          |
 | Asc. Broadcast      | Instant  | One-Time     |
 
+## Psionic Interaction
+
+### Enthrall
+Can not interact with psionic insulated people
+
+
 ## Why should they be added to the game?
 
-They should be added because they are a unique conversion antagonist that will not rely on murderboning, but on strategic planning. 
+They should be added because they are a unique conversion antagonists that will not rely on murderboning, but on strategic planning. 
 
 Shadowlings should be a gamemode that is fun to play in (by working towards Ascension and leading your Thralls), and fun to play against (by getting to play as a Thrall)
