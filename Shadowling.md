@@ -118,6 +118,25 @@ Scalings:
 ### Enthrall
 Can not interact with psionic insulated people
 
+## Ascension
+
+Ascension acts similar to the nuke or summoning nar'sie. The Shadowling will form a cocoon and step inside it, activating a timer. In this moment, the Shadowling can not do anything other than put it's faith into the Thralls to protect it. 
+In order to stop the ascension, the crew needs to destroy the cocoon by smashing and shooting it before it hatches.
+
+## Shadow Damage (not considered yet)
+
+Shadowlings gain a new damage type called Shadow Damage that they deal in very small amounts from their punches.
+
+Shadow Damage can only be healed through a special reagent that can be found in the Shadowling's hatching egg
+
+Shadow Damage will be included in a few abilities
+
+## Weaknesses 
+
+Shadowlings are technically 3-4 gunshots from dying since they don't have any armor. If you can bypass it's Thralls and kill it quick, you've easily won.
+
+Shadowlings can not carry weapons and clothes, so they only rely on Thralls communication and their abilities.
+
 
 ## Why should they be added to the game?
 
