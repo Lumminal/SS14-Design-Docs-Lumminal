@@ -63,8 +63,8 @@ A rule (I personally believe) we should follow when porting SS13 content to SS14
 | **Blindness Smoke [5]** | Emits smoke that blinds non-shadowlings and heals thralls/shadowlings.                                                                                        |
 | **Null Charge [7]**     | Disables an APC until repaired.                                                                                                                              |
 | **Black Recuperation [9]** | Brings a dead Thrall back to life or promotes a Thrall to Lesser Shadowling.                                                                                  |
-| **Empowered Enthrall [7]** | Allows Enthralling of mindshielded individuals.                                                                                                               |
-| **Nox Imperii [12]**    | Forms a dark angelic crown around the Shadowling, making them immune to all lightning damage for the round.                                                   |
+| **Empowered Enthrall [12]** | Allows Enthralling of mindshielded individuals.                                                                                                               |
+| **Nox Imperii [15]**    | Forms horns on the Shadowling as a visual effect, making them also immune to all lightning damage for the round.                                                   |
 | **Ascension [20]**      | Ascends the Shadowling, destroying all lights in the station, stunning everyone for a short duration, and gaining new abilities. Becomes nearly unkillable.  |
 | **Ascension Abilities** |                                                                                                                                                              |
 | **Annihilate**          | Instantly kills the target (insta-gib).                                                                                                                       |
@@ -79,13 +79,9 @@ A rule (I personally believe) we should follow when porting SS13 content to SS14
 ### Shadowmind
 Shadowlings and Thralls can talk in their own language by opening the language menu, similar to Blood Cultists
 
-### Light Resistance 
-Based on the amount of Thralls, they gain some form of light resistance. This makes Security and Crew to not spam lights, and fight them head-on. If I Am Light is used, this passive gets disabled and the ability takes over.
+### Anti-Light Resistance 
+Based on the amount of Thralls, they lose some form of light resistance. 
 
-Scalings:
-0-3: 10% Light Resistance 
-4-7: 25% Light Resistance 
-8-12: 50% Light Resistance 
 
 ## Ability Timings 
 
